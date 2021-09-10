@@ -57,8 +57,10 @@ a[href='#'] {
   flex: 0 1 auto;
   order: 2;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  list-style: none;
   padding: 0;
+
   white-space: nowrap;
   overflow-x: auto;
 }
@@ -79,7 +81,7 @@ a[href='#'] {
 .thumbnail-title {
   display: block;
   margin: 0;
-  padding: 0.4em 1em;
+  padding: 4px 10px;
   background: rgb(96, 125, 139);
   color: rgb(202, 238, 255);
   font-family: sans-serif;
@@ -104,32 +106,9 @@ a[href='#'] {
 
 .detail-image-title {
   position: absolute;
-  bottom: -0.3em;
-  left: 0.4em;
-  font-family: airstreamregular;
-  color: white;
-  text-shadow: rgba(0, 0, 0, 0.9) 1px 2px 9px;
-  font-size: 4em;
-}
-
-
-@media all and (min-width: 768px) {
-  .main-content {
-    flex-direction: row;
-    overflow: hidden;
-  }
-
-  .thumbnail-list {
-    flex-direction: column;
-    order: 0;
-    margin-left: 2em;
-  }
-
-  .thumbnail-item {
-    max-width: 260px;
-  }
-
-  .thumbnail-item + .thumbnail-item {
-    margin-top: 2em;
-  }
+  bottom: -16px;left: 4px;  
+  font-family: airstreamregular;  
+  color: white;  
+  text-shadow: rgba(0, 0, 0, 0.9) 1px 2px 9px;  
+  font-size: 40px;
 }
