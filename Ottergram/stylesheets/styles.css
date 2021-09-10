@@ -58,7 +58,6 @@ a[href='#'] {
   order: 2;
   display: flex;
   justify-content: flex-start;
-  gap: 10px;
   list-style: none;
   padding: 0;
 
